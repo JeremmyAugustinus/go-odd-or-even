@@ -2,8 +2,8 @@ package go_odd_or_even
 
 func OddOrEven(i int) string {
 	if i%2 == 0 {
-		return "even"
+		return "EVEN"
 	} else {
-		return "odd"
+		return "ODD"
 	}
 }
