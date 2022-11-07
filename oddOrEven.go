@@ -1,9 +1,11 @@
 package go_odd_or_even
 
+import "fmt"
+
 func OddOrEven(i int) string {
 	if i%2 == 0 {
-		return "Genap"
+		return fmt.Sprintf("%d adalah bilangan genap", i)
 	} else {
-		return "Ganjil"
+		return fmt.Sprintf("%d adalah bilangan ganjil", i)
 	}
 }
