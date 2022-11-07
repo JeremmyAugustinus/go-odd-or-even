@@ -4,8 +4,8 @@ import "fmt"
 
 func OddOrEven(i int) string {
 	if i%2 == 0 {
-		return fmt.Sprintf("%d adalah bilangan genap", i)
+		return fmt.Sprintf("[OddOrEven] %d adalah bilangan genap", i)
 	} else {
-		return fmt.Sprintf("%d adalah bilangan ganjil", i)
+		return fmt.Sprintf("[OddOrEven] %d adalah bilangan ganjil", i)
 	}
 }
